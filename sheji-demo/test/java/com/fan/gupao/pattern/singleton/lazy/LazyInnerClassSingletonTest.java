@@ -13,7 +13,7 @@ public class LazyInnerClassSingletonTest {
         try {
             //很无聊的情况下，进行破坏
             Class<?> clazz = LazyInnerClassSingleton.class;
-
+//            Class<?> clazz = HungrySingleton.class;
             //通过反射拿到私有的构造方法
             Constructor<?> c = null;
             c = clazz.getDeclaredConstructor(null);
@@ -23,10 +23,12 @@ public class LazyInnerClassSingletonTest {
 
             //暴力初始化
             Object o1 = c.newInstance();
+            System.out.println("o1:"+o1);
 
             //调用了两次构造方法，相当于new两次
             //犯了原则性问题
             Object o2 = c.newInstance();
+            System.out.println("o2:"+o2);
 
             System.out.println(o1 == o2);
 
