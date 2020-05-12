@@ -7,7 +7,7 @@
         <setting name="logImpl" value="STDOUT_LOGGING"/>
 
         <!-- 控制全局缓存（二级缓存），默认true -->
-        <setting name="cacheEnabled" value="false" />
+        <setting name="cacheEnabled" value="true" />
 
         <!-- 延迟加载的全局开关。当开启时，所有关联对象都会延迟加载。默认false -->
         <setting name="lazyLoadingEnabled" value="true" />
@@ -27,6 +27,10 @@
     <!--<typeHandlers>-->
         <!--<typeHandler handler="com.fan.gupao.demo.type.MyTypeHandler" />-->
     <!--</typeHandlers>-->
+    <typeHandlers>
+        <typeHandler handler="com.fan.gupao.demo.type.MyShopTypeHandler"
+                     javaType="java.util.List" jdbcType="VARCHAR" />
+    </typeHandlers>
 
     <!--<objectFactory type="com.fan.gupao.demo.objectfactory.GPObjectFactory">-->
         <!--<property name="gupao" value="666"/>-->

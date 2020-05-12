@@ -65,7 +65,7 @@ public class MyBatisTest {
         SqlSession session = sqlSessionFactory.openSession();
         try {
             BlogMapper mapper = session.getMapper(BlogMapper.class);
-            Blog blog = mapper.selectBlogById(1000);
+            Blog blog = mapper.selectBlogById(70000);
             System.out.println(blog);
         }finally {
             session.close();
@@ -106,10 +106,15 @@ public class MyBatisTest {
         try {
             BlogMapper mapper = session.getMapper(BlogMapper.class);
 
+            List<Integer> list = new ArrayList();
+            list.add(1);
+            list.add(3);
+            list.add(4);
             Blog blog = new Blog();
             blog.setBid(70000);
             blog.setName("测试插入");
             blog.setAuthorId(111111111);
+            blog.setNameTest(list);
             System.out.println(mapper.insertBlog(blog));
             session.commit();
         }finally {

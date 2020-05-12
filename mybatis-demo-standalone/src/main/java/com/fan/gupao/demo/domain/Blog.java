@@ -1,6 +1,7 @@
 package com.fan.gupao.demo.domain;
 
 import java.io.Serializable;
+import java.util.List;
 
 /**
  * @Description:
@@ -19,6 +20,8 @@ public class Blog implements Serializable {
 
     // 文章作者ID
     private Integer authorId;
+
+    private List<Integer> nameTest;
 
     public Integer getBid() {
         return bid;
@@ -51,5 +54,13 @@ public class Blog implements Serializable {
                 ", name='" + name + '\'' +
                 ", authorId=" + authorId +
                 '}';
+    }
+
+    public List<Integer> getNameTest() {
+        return nameTest;
+    }
+
+    public void setNameTest(List<Integer> nameTest) {
+        this.nameTest = nameTest;
     }
 }

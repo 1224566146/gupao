@@ -142,6 +142,9 @@
             <if test="authorId != null">
                 author_id,
             </if>
+            <if test="nameTest != null">
+                nametest,
+            </if>
         </trim>
         <trim prefix="values (" suffix=")" suffixOverrides=",">
             <if test="bid != null">
@@ -153,6 +156,9 @@
             </if>
             <if test="authorId != null">
                 #{authorId,jdbcType=INTEGER},
+            </if>
+            <if test="nameTest != null">
+                #{nameTest,jdbcType=VARCHAR,typeHandler=com.fan.gupao.demo.type.MyShopTypeHandler},
             </if>
         </trim>
     </insert>
