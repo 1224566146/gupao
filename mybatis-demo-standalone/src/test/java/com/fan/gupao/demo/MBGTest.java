@@ -26,7 +26,7 @@ public class MBGTest {
         List<String> warnings = new ArrayList<>();
         boolean overwrite = true;
         // 小心文件被覆盖
-        File configFile = new File("generator-config.xml");
+        File configFile = new File("src/main/resources/generator-config.xml");
         ConfigurationParser cp = new ConfigurationParser(warnings);
         Configuration config = cp.parseConfiguration(configFile);
         DefaultShellCallback callback = new DefaultShellCallback(overwrite);

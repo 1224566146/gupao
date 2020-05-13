@@ -1,9 +1,11 @@
 package com.fan.gupao.demo;
 
+import com.fan.gupao.demo.dao.FeeMapper;
 import com.fan.gupao.demo.domain.Blog;
 import com.fan.gupao.demo.domain.associate.AuthorAndBlog;
 import com.fan.gupao.demo.domain.associate.BlogAndAuthor;
 import com.fan.gupao.demo.domain.associate.BlogAndComment;
+import com.fan.gupao.demo.entity.Fee;
 import com.fan.gupao.demo.mapper.BlogMapper;
 import com.fan.gupao.demo.mapper.BlogMapperExt;
 import org.apache.ibatis.io.Resources;
@@ -67,6 +69,20 @@ public class MyBatisTest {
             BlogMapper mapper = session.getMapper(BlogMapper.class);
             Blog blog = mapper.selectBlogById(70000);
             System.out.println(blog);
+        }finally {
+            session.close();
+        }
+    }
+
+    @Test
+    public void testSelectFee() throws IOException {
+        SqlSession session = sqlSessionFactory.openSession();
+        try {
+            FeeMapper mapper = session.getMapper(FeeMapper.class);
+            Fee fe = new Fee();
+            fe.setFeeDate("202005");
+            List<Fee> fee = mapper.selectByFeeDate(fe);
+            System.out.println(fee.toString());
         }finally {
             session.close();
         }

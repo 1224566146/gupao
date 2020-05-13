@@ -36,13 +36,15 @@
         <!--<property name="gupao" value="666"/>-->
     <!--</objectFactory>-->
 
-    <!--<plugins>-->
+    <plugins>
         <!--<plugin interceptor="com.fan.gupao.demo.interceptor.SQLInterceptor">-->
             <!--<property name="gupao" value="betterme" />-->
         <!--</plugin>-->
         <!--<plugin interceptor="com.fan.gupao.demo.interceptor.MyPageInterceptor">-->
         <!--</plugin>-->
-    <!--</plugins>-->
+        <plugin interceptor="com.fan.gupao.demo.interceptor.MyFeeInterceptor"></plugin>
+    </plugins>
+
 
     <environments default="development">
         <environment id="development">
@@ -60,6 +62,8 @@
     <mappers>
         <mapper resource="BlogMapper.xml" />
         <mapper resource="BlogMapperExt.xml" />
+        <mapper resource="FeeMapper.xml"/>
     </mappers>
+
 
 </configuration>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fan.gupao.demo.dao.FeeMapper">
+  <resultMap id="BaseResultMap" type="com.fan.gupao.demo.entity.Fee">
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="fee_amt" jdbcType="VARCHAR" property="feeAmt" />
+    <result column="fee_date" jdbcType="VARCHAR" property="feeDate" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, fee_amt, fee_date
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from fee
+    where id = #{id,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from fee
+    where id = #{id,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.fan.gupao.demo.entity.Fee">
+    insert into fee (id, fee_amt, fee_date
+      )
+    values (#{id,jdbcType=VARCHAR}, #{feeAmt,jdbcType=VARCHAR}, #{feeDate,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.fan.gupao.demo.entity.Fee">
+    insert into fee
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="feeAmt != null">
+        fee_amt,
+      </if>
+      <if test="feeDate != null">
+        fee_date,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=VARCHAR},
+      </if>
+      <if test="feeAmt != null">
+        #{feeAmt,jdbcType=VARCHAR},
+      </if>
+      <if test="feeDate != null">
+        #{feeDate,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.fan.gupao.demo.entity.Fee">
+    update fee
+    <set>
+      <if test="feeAmt != null">
+        fee_amt = #{feeAmt,jdbcType=VARCHAR},
+      </if>
+      <if test="feeDate != null">
+        fee_date = #{feeDate,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.fan.gupao.demo.entity.Fee">
+    update fee
+    set fee_amt = #{feeAmt,jdbcType=VARCHAR},
+      fee_date = #{feeDate,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+
+  <select id="selectByFeeDate" parameterType="com.fan.gupao.demo.entity.Fee" resultType="com.fan.gupao.demo.entity.Fee">
+    select id, fee_amt,fee_date from fee where fee_date = #{feeDate}
+  </select>
+</mapper>

@@ -2,10 +2,7 @@ package com.fan.gupao.demo.interceptor;
 
 import org.apache.ibatis.executor.statement.StatementHandler;
 import org.apache.ibatis.mapping.BoundSql;
-import org.apache.ibatis.plugin.Interceptor;
-import org.apache.ibatis.plugin.Intercepts;
-import org.apache.ibatis.plugin.Invocation;
-import org.apache.ibatis.plugin.Signature;
+import org.apache.ibatis.plugin.*;
 import org.apache.ibatis.session.ResultHandler;
 
 import java.sql.Statement;
@@ -37,7 +34,7 @@ public class SQLInterceptor implements Interceptor {
 
     @Override
     public Object plugin(Object target) {
-        return null;
+        return Plugin.wrap(target, this);
     }
 
     @Override
