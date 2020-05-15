@@ -1,0 +1,12 @@
+
+@
+java:S1148;"#Use a logger to log this exception.(¸ß¹8ë®œ¡.
+i
+java:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ÔìÀÙøÿÿÿÿ8¡Ü±œ¡.
+@
+java:S1148,"#Use a logger to log this exception.(¸ß¹8ë®œ¡.
+X	java:S125"<This block of commented-out lines of code should be removed.(†¨÷È8…ÙÄœ¡.
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(Â„×Ó8ë®œ¡.
+E	java:S1084")Either remove or fill this block of code.(â•¼İ8ë®œ¡.
+E
+java:S1148."#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ë®œ¡.
