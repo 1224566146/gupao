@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+            http://dubbo.apache.org/schema/dubbo
+http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+
+    <!-- 提供方应用信息，用于计算依赖关系  -->
+    <dubbo:application name="user-service"/>
+    <!-- 服务注册中心的地址，N/A 表示不注册  -->
+    <dubbo:registry address="N/A"/>
+    <!-- 用Dubbo协议在20990端口暴露服务 -->
+    <dubbo:protocol name="dubbo" port="20880"/>
+    <!-- 声明需要暴露的服务接口 -->
+    <dubbo:service interface="com.fan.dubbo.demo.IUserService"
+                   ref="userService"/>
+
+    <!-- 和本地Bean一样实现服务 -->
+    <bean id="userService" class="com.fan.dubbo.demo.impl.UserServiceImpl"/>
+
+
+</beans>
