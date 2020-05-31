@@ -1,0 +1,19 @@
+
+W
+java:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ì³µ¡.
+Q
+java:S3740"/Provide the parametrized type for this generic.(ÅÖéÿÿÿÿÿ8ıĞ§µ¡.
+E
+java:S1148*"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8˜´µ¡.
+a
+java:S2147C"DCombine this catch with the one at line 65, which has the same body.(É®£8˜‚¶µ¡.
+E
+java:S1148 "#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ì³µ¡.
+E
+java:S1148$"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Çª³µ¡.
+E
+java:S1148B"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8˜‚¶µ¡.
+d
+java:S2259"BA "NullPointerException" could be thrown; "conn" is nullable here.(é‘şùÿÿÿÿ8˜‚¶µ¡.
+E
+java:S1148D"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8˜‚¶µ¡.

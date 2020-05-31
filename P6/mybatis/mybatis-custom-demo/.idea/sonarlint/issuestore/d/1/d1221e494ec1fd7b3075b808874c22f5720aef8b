@@ -1,0 +1,21 @@
+
+u
+java:S3776ˆ"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Øó÷ÿûÿÿÿÿ8åªø±¡.
+U
+java:S1135—"2Complete the task associated to this TODO comment.(“Ðà±ùÿÿÿÿ8ÐŸö±¡.
+E
+java:S1148E"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8¨¸›±¡.
+?
+java:S2386$"Make this member "protected".(ÇÈàìÿÿÿÿÿ8¦Éô°¡.
+E
+java:S1148\"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8£¦Ô±¡.
+g
+java:S3027B"JPut single-quotes around '.' to use the faster "lastIndexOf(char)" method.(€Ùéõ8†ïž±¡.
+L
+java:S3740:"/Provide the parametrized type for this generic.(ë«‹ã8á—Œ±¡.
+F
+java:S1148º"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ù×Ï¶¡.
+L
+java:S37407"/Provide the parametrized type for this generic.(þÝî«8³‚‹±¡.
+f
+java:S2259¼"CA "NullPointerException" could be thrown; "clazz" is nullable here.(¸­Éºúÿÿÿÿ8ù×Ï¶¡.

@@ -1,0 +1,27 @@
+
+Y
+java:S3752m">Add a "method" parameter to this "@RequestMapping" annotation.(”ŠÖòüÿÿÿÿ
+f	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù‘Å
+i
+java:S4488!"NReplace "@RequestMapping(method = RequestMethod.DELETE)" with "@DeleteMapping"(ó÷Šÿÿÿÿÿ
+E
+java:S3740M"/Provide the parametrized type for this generic.(«›ú
+k	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èô÷Œûÿÿÿÿ
+^
+java:S4488<"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(‹©¹Ã
+e
+java:S4488e"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(€ƒ—òÿÿÿÿÿ
+E
+java:S3740\"/Provide the parametrized type for this generic.(«›ú
+e
+java:S3252Z"OUse static access with "com.github.pagehelper.page.PageMethod" for "startPage".(€©ê×
+E
+java:S3740\"/Provide the parametrized type for this generic.(«›ú
+E
+java:S3740M"/Provide the parametrized type for this generic.(«›ú
+T
+java:S3752H">Add a "method" parameter to this "@RequestMapping" annotation.(óãŒ´
+^
+java:S44885"HReplace "@RequestMapping(method = RequestMethod.PUT)" with "@PutMapping"(äè¶ô
+j
+java:S3252K"OUse static access with "com.github.pagehelper.page.PageMethod" for "startPage".(‡‡´äûÿÿÿÿ
