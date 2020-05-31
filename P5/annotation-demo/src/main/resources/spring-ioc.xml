@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 创建方式1：空参构造创建 -->
+    <bean id="a" class="com.fan.gupao.demo1.A"/>
+
+    <!--
+        创建方式2：静态工厂创建
+        调用A的createBObj方法来创建名为b的对象放入容器
+    -->
+    <bean id="b" class="com.fan.gupao.demo1.A" factory-method="createBObj"/>
+
+    <!--
+            创建方式3：实例工厂创建
+            调用实例a的createCObj方法来创建名为c的对象放入容器
+     -->
+    <bean id="c" factory-bean="a" factory-method="createCObj"/>
+
+
+</beans>
