@@ -6,7 +6,7 @@ import java.io.*;
  * @author 樊高风
  * @date 2020/6/15 15:18
  */
-public class User implements Serializable {
+public class User  extends Person implements Serializable  {
 
 
     private static final long serialVersionUID = -2586454330418732234L;

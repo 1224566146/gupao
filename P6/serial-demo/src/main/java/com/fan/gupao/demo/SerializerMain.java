@@ -9,7 +9,7 @@ public class SerializerMain {
 
     public static void main(String[] args) {
 
-        ISerializer iSerializer = new HessianSerializer();
+        ISerializer iSerializer = new JavaSerializer();
 
         User user = new User();
         user.setName("樊高风");
