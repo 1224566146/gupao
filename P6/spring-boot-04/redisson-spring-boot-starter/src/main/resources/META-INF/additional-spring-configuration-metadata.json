@@ -1,0 +1,13 @@
+{
+  "properties": [{
+    "name": "gp.redisson.host",
+    "type": "java.lang.String",
+    "description": "redis的服务器地址",
+    "defaultValue": "localhost"
+  },{
+    "name": "gp.redisson.port",
+    "type": "java.lang.Integer",
+    "description": "redis服务器的端口",
+    "defaultValue": 6379
+  }]
+}
