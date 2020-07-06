@@ -1,0 +1,4 @@
+com\fan\gupao\demo\OrderService.class
+com\fan\gupao\demo\App.class
+com\fan\gupao\demo\dto\OrderDto.class
+com\fan\gupao\demo\clients\OrderServiceFeignClient.class
