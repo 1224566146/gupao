@@ -15,8 +15,6 @@ A
 Xorder-service/src/main/java/com/fan/gupao/demo/orderservice/OrderServiceApplication.java,f\4\f4ad5109bf83d991930e7f073008637977bac414
 Å
 Qorder-service/src/main/java/com/fan/gupao/demo/orderservice/OrderServiceImpl.java,c\f\cf03766dd5f5bdb5da3ddb29d7776368a3e234af
-g
-7order-service/src/main/resources/application.properties,e\7\e798f939adaa649751f14ddf8e58ee00bc7ac40d
 ç
 ]order-service/src/test/java/com/fan/gupao/demo/orderservice/OrderServiceApplicationTests.java,0\8\08c4334adf6098662e90c6bec7820a0756f6617c
 H
