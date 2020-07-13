@@ -1,0 +1,17 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: user-service
+  kafka:
+    bootstrap-servers: 192.168.137.131:9092
+    consumer:
+      group-id: user-service
+  cloud:
+    bus:
+      enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh

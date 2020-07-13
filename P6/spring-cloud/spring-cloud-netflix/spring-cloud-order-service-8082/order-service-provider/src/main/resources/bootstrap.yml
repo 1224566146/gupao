@@ -1,0 +1,12 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9090/eureka
+
+
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: spring-cloud-config-server-9091

@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: order-service
+  cloud:
+    bus:
+      enabled: true
+  kafka:
+    consumer:
+      group-id: order-service
+    bootstrap-servers: 192.168.137.131:9092
+
+
+server:
+  port: 8082
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
