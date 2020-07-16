@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan(basePackages = "com.fan.gupao.demo.controller")
+@ComponentScan(basePackages = {"com.fan.gupao.demo.controller","com.fan.gupao.demo.sourceloader"})
 @SpringBootApplication
 public class UserServiceProviderApplication {
 
