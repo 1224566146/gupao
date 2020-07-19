@@ -6,8 +6,8 @@ spring:
       server:
         git:
           uri: https://gitee.com/fanlixiang/test.git
-          username: "*******"
-          password: "*******"
+          username: "1224566146"
+          password: "525.ke"
     bus:
       enabled: true
       trace:

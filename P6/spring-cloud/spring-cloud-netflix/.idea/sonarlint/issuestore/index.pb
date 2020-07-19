@@ -35,8 +35,6 @@ W
 'spring-cloud-config-server-9091/pom.xml,b\2\b2f8689e444c65f2c06ae2faeda1ac59c6c4465a
 π
 àspring-cloud-eureka-server-9090/src/main/java/com/fan/gupao/demo/springcloudeurekaserver9090/SpringCloudEurekaServer9090Application.java,6\d\6d0e680a835f22dba40dc6b206c9823c9078930d
-y
-Ispring-cloud-eureka-server-9090/src/main/resources/application.properties,f\8\f81d4c30047ade499a1e5fc34ff15266a5c71c66
 æ
 çspring-cloud-eureka-server-9090/src/test/java/com/fan/gupao/demo/springcloudeurekaserver9090/SpringCloudEurekaServer9090ApplicationTests.java,d\2\d231b394450555abb1597952728cb4b1729bdcc1
 Z
@@ -67,3 +65,15 @@ o
 ?spring-cloud-user-service-8081/user-service-provider/.gitignore,4\7\47d1581911f6d75fdc3073c0c7a3671143590bbb
 l
 <spring-cloud-user-service-8081/user-service-provider/pom.xml,d\5\d562460f67d783e3464bd3f3ca0b50b0a654b74a
+´
+{spring-cloud-user-service-8081/user-service-provider/src/main/java/com/fan/gupao/demo/profiledemo/ProfileConfiguration.java,e\d\ed60b38164931fcb076f2542535e3f1aa7cd2b48
+¢
+rspring-cloud-user-service-8081/user-service-provider/src/main/java/com/fan/gupao/demo/profiledemo/ProfileMain.java,b\4\b402c756dcb53a04a705929e1c09cd3b78f1daf6
+•
+uspring-cloud-user-service-8081/user-service-provider/src/main/java/com/fan/gupao/demo/profiledemo/ProfileService.java,b\e\bed2516c20261c14b2a988e56bdfedd7b4b216fd
+∑
+Üspring-cloud-user-service-8081/user-service-provider/src/main/java/com/fan/gupao/demo/sourceloader/GpDefineBootStrapConfiguration.java,0\2\02beb4ab163e99f6acdc3ee362c63237ab30e0a2
+≤
+Åspring-cloud-user-service-8081/user-service-provider/src/main/java/com/fan/gupao/demo/sourceloader/GpDefineJsonProperySource.java,8\c\8cb958fbe933b81e12814b9037c515cc9ba633c1
+±
+Äspring-cloud-user-service-8081/user-service-provider/src/main/java/com/fan/gupao/demo/sourceloader/JsonProperySourceLocator.java,e\a\ea312b73fbf1474a8add051d80c04f1df9eb1160

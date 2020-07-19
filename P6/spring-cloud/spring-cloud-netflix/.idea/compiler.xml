@@ -10,6 +10,7 @@
         <module name="order-service-provider" />
         <module name="spring-cloud-config-server-9091" />
         <module name="spring-cloud-eureka-server-9090" />
+        <module name="spring-cloud-hystrix-dashboard-9092" />
         <module name="user-service-api" />
         <module name="user-service-provider" />
       </profile>

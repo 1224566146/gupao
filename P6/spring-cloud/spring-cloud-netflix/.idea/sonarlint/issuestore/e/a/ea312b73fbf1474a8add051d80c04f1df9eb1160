@@ -1,0 +1,15 @@
+
+a
+java:S2583&"DChange this condition so that it does not always evaluate to "false"(ãáÒ®8íÓ·µ.
+g
+java:S2674K"JCheck the return value of the "read" call to see how many bytes were read.(çŠù€8¿»Ş·µ.
+O
+java:S1135J"2Complete the task associated to this TODO comment.(±Åñ¨8¿»Ş·µ.
+U
+java:S4719L"9Replace charset name argument with StandardCharsets.UTF_8(âÕ p8¿»Ş·µ.
+L
+java:S2093H"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8ŞÛ·µ.
+E
+java:S1148N"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8…åÚ·µ.
+E
+java:S1148T"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Í¸à·µ.

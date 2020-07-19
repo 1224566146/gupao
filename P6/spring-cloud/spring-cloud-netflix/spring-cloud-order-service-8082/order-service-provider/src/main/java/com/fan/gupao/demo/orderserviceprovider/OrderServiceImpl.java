@@ -14,12 +14,17 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public String orders() {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return "Return All Orders";
     }
 
     @Override
     public int insert(OrderDto dto) {
-        return 0;
+        return 1;
     }
 
 }

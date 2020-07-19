@@ -17,7 +17,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class ConfigController {
 
     @Value("${env}")
-//    @Value("${custom.property.hello}")
     private String txt;
 
     @GetMapping("/config")

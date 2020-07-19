@@ -1,28 +1,26 @@
-server:
-  port: 8081
 spring:
   application:
     name: user-service
   kafka:
-    bootstrap-servers: 192.168.137.131:9092
+    bootstrap-servers: 192.168.216.128:9092
     consumer:
       group-id: user-service
   cloud:
     bus:
       enabled: true
+server:
+  port: 8081
 management:
   endpoints:
     web:
       exposure:
         include: refresh,hystrix.stream
-
 feign:
   hystrix:
     enabled: true
-
 hystrix:
   command:
-    default: # 全局配置, feignclient#method(param)
+    default:  #全局配置， feignclient#method(param)
       execution:
         timeout:
           enable: true
@@ -43,8 +41,7 @@ hystrix:
     order-service:
       coreSize: 2
       maxQueueSize: 1000
-      queueSizeRejectionThreshold: 800
-
+      queueSizeRejectionThreshold:  800
 ribbon:
   ReadTimeout: 10000
   ConnectTimeout: 10000
