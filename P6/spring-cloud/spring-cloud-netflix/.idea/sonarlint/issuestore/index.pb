@@ -77,3 +77,19 @@ uspring-cloud-user-service-8081/user-service-provider/src/main/java/com/fan/gupa
 Åspring-cloud-user-service-8081/user-service-provider/src/main/java/com/fan/gupao/demo/sourceloader/GpDefineJsonProperySource.java,8\c\8cb958fbe933b81e12814b9037c515cc9ba633c1
 ±
 Äspring-cloud-user-service-8081/user-service-provider/src/main/java/com/fan/gupao/demo/sourceloader/JsonProperySourceLocator.java,e\a\ea312b73fbf1474a8add051d80c04f1df9eb1160
+r
+Bspring-cloud-config-server-9091/src/main/resources/application.yml,6\3\63e4ccf048346f7383e1c8bed036b0f7a888be0a
+≈
+îspring-cloud-hystrix-dashboard-9092/src/main/java/com/fan/gupao/demo/springcloudhystrixdashboard9092/SpringCloudHystrixDashboard9092Application.java,4\7\47ab6b0a8b82d19eb4bef6ea3a4f17d6b47dc0de
+ 
+ôspring-cloud-hystrix-dashboard-9092/src/test/java/com/fan/gupao/demo/springcloudhystrixdashboard9092/SpringCloudHystrixDashboard9092ApplicationTests.java,d\8\d8ccc90922ea1e9ff7a22958c1325c62c8c6b0ed
+^
+.spring-cloud-hystrix-dashboard-9092/.gitignore,6\4\648bb88149eb61cb3c6d1309a958211cd23790aa
+[
++spring-cloud-hystrix-dashboard-9092/pom.xml,c\e\ce5b99cccf167dd3474d229daa55c461d8308c54
+´
+{spring-cloud-user-service-8081/user-service-provider/src/main/java/com/fan/gupao/demo/config/RestTemplateConfiguration.java,4\8\48f4545fa28fc276eb9ba8b32c718cfec530e20a
+¨
+|spring-cloud-user-service-8081/user-service-provider/src/main/java/com/fan/gupao/demo/controller/HystrixFeignController.java,7\d\7de253ab73038010bf97caabf1f1252c3b91e2ef
+ß
+wspring-cloud-user-service-8081/user-service-provider/src/main/java/com/fan/gupao/demo/controller/HystrixController.java,5\8\583f32cbb7094ef3694fc933b68d29631e8afc0a
