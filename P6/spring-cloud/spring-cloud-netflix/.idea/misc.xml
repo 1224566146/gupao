@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/spring-cloud-order-service-8082/order-service-provider/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-hystrix-dashboard-9092/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-8083/pom.xml" />
       </list>
     </option>
   </component>

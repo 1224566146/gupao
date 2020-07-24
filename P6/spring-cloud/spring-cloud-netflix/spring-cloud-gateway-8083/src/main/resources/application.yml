@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: spring-cloud-gateway-8083
+  cloud:
+    gateway:
+      routes:
+        - id: config_route
+          predicates:
+            - Path=/gateway/**
+          filters:
+            - StripPrefix=1
+          uri: http://localhost:8082/
+        - id: cookie_route
+          predicates:
+            - Cookie=name,mic
+            #- Path=/define/**
+            #- Auth=Authorization,token
+          filters:
+            - StripPrefix=1
+          uri: https://www.gupaoedu.com
+server:
+  port: 8083

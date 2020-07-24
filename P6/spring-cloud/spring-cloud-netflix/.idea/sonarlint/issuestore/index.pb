@@ -93,3 +93,15 @@ Bspring-cloud-config-server-9091/src/main/resources/application.yml,6\3\63e4ccf
 |spring-cloud-user-service-8081/user-service-provider/src/main/java/com/fan/gupao/demo/controller/HystrixFeignController.java,7\d\7de253ab73038010bf97caabf1f1252c3b91e2ef
 ß
 wspring-cloud-user-service-8081/user-service-provider/src/main/java/com/fan/gupao/demo/controller/HystrixController.java,5\8\583f32cbb7094ef3694fc933b68d29631e8afc0a
+Æ
+~spring-cloud-user-service-8081/user-service-provider/src/main/java/com/fan/gupao/demo/controller/HystrixCommandController.java,7\3\731b401c19e7bb5e9db421f84baa4007ab9113e7
+©
+yspring-cloud-user-service-8081/user-service-provider/src/main/java/com/fan/gupao/demo/controller/GpHystrixController.java,1\e\1ed91df29b7f875b58efc88a417faa0b80614f30
+æ
+çspring-cloud-user-service-8081/user-service-provider/src/main/java/com/fan/gupao/demo/userserviceprovider/hystrix/GpHystrixCommandAspect.java,3\d\3d32ee5cf76095ab60c3785a494e09a55bd40bd3
+∏
+áspring-cloud-user-service-8081/user-service-provider/src/main/java/com/fan/gupao/demo/userserviceprovider/hystrix/GpHystrixCommand.java,5\8\5878fde6d9f3b7652f15ff916d1ea468e640bb0e
+Ω
+åspring-cloud-user-service-8081/user-service-provider/src/main/java/com/fan/gupao/demo/userserviceprovider/service/HystrixCommandService.java,d\8\d885a567471026a40d1e271f8ccff2d53a8ef791
+ú
+lspring-cloud-user-service-8081/user-service-provider/src/main/java/com/fan/gupao/demo/rxjava/RxJavaDemo.java,1\f\1f4476f4fa74dc84ba769a8196c37bffa7126308
