@@ -1,13 +1,13 @@
 
-U	java:S106*"9Replace this use of System.out or System.err by a logger.(“•Öå8Í¸½Ğ¶.
 L
 java:S3740&"/Provide the parametrized type for this generic.(‹‚”Ì8Í¸½Ğ¶.
 J
 java:S1604"(Make this anonymous inner class a lambda(Âğèûøÿÿÿÿ8ÒÏ¶Ğ¶.
-Z	java:S106/"9Replace this use of System.out or System.err by a logger.(òòˆøÿÿÿÿ8Í¸½Ğ¶.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(‰áÈşÿÿÿÿ8ÿ¯Ğ¶.
+Z	java:S1064"9Replace this use of System.out or System.err by a logger.(ô‚şûÿÿÿÿ8Í¸½Ğ¶.
 L
 java:S3740&"/Provide the parametrized type for this generic.(‹‚”Ì8Í¸½Ğ¶.
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(òòˆøÿÿÿÿ8Í¸½Ğ¶.
+U	java:S106*"9Replace this use of System.out or System.err by a logger.(“•Öå8Í¸½Ğ¶.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(‰áÈşÿÿÿÿ8ÿ¯Ğ¶.
 J
 java:S1604"(Make this anonymous inner class a lambda(ç¸Ò‰şÿÿÿÿ8ÿ¯Ğ¶.
-Z	java:S1064"9Replace this use of System.out or System.err by a logger.(ô‚şûÿÿÿÿ8Í¸½Ğ¶.

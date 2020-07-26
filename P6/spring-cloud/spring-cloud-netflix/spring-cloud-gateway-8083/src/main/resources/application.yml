@@ -18,5 +18,42 @@ spring:
           filters:
             - StripPrefix=1
           uri: https://www.gupaoedu.com
+        - id: lb_route
+          predicates:
+            - Path=/lb/**
+          filters:
+            - StripPrefix=1
+          uri: lb://order-service
+        - id: ratelimiter_route
+          predicates:
+            - Path=/ratelimiter/**
+          filters:
+            - StripPrefix=1
+            - name: RequestRateLimiter
+              args:
+                deny-empty-key: true
+                keyResolver: '#{@ipAddressKeyResolver}'
+                redis-rate-limiter.replenishRate: 1
+                redis-rate-limiter.burstCapacity: 2
+          uri: lb://order-service
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+  redis:
+    host: 192.168.137.131
+    port: 6379
+
+
 server:
   port: 8083
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9090/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

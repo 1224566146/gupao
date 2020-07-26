@@ -105,3 +105,13 @@ yspring-cloud-user-service-8081/user-service-provider/src/main/java/com/fan/gupa
 Œspring-cloud-user-service-8081/user-service-provider/src/main/java/com/fan/gupao/demo/userserviceprovider/service/HystrixCommandService.java,d\8\d885a567471026a40d1e271f8ccff2d53a8ef791
 œ
 lspring-cloud-user-service-8081/user-service-provider/src/main/java/com/fan/gupao/demo/rxjava/RxJavaDemo.java,1\f\1f4476f4fa74dc84ba769a8196c37bffa7126308
+­
+}spring-cloud-gateway-8083/src/test/java/com/fan/gupao/demo/springcloudgateway8083/SpringCloudGateway8083ApplicationTests.java,2\0\209411f295eb5979c09de141abf5cfa2a09ebf3d
+T
+$spring-cloud-gateway-8083/.gitignore,9\2\92f39d7cf18cfaed2bc5cc2b68c2910d4cfd2122
+Q
+!spring-cloud-gateway-8083/pom.xml,5\a\5ad3a49b68cf9ddc04b30925ec8f60009169e946
+ 
+pspring-cloud-gateway-8083/src/main/java/com/fan/gupao/demo/springcloudgateway8083/AuthRoutePredicateFactory.java,f\8\f8db9e4d2cc6bfa535de485595f2aad23f12a8e6
+¨
+xspring-cloud-gateway-8083/src/main/java/com/fan/gupao/demo/springcloudgateway8083/SpringCloudGateway8083Application.java,c\4\c4054fec3aa68a513c447dd41b87f7b9007e0095
