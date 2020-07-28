@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: goods-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/gpmall?useUnicode=true&characterEncoding=utf8&useOldAliasMetadataBehavior=true&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&serverTimezone=UTC
+    username: root
+    password: 525.xiang
+  sleuth:
+    sampler:
+      probability: 1.0
+  zipkin:
+    base-url: http://192.168.137.131:9411/
+
+
+server:
+  port: 9093
+mybatis:
+  type-aliases-package: com.fan.gupao.demo.goodsserviceprovider.mapper.entitys
+
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9090/eureka
+logging:
+  level:
+    org.springframework.cloud.sleuth: debug

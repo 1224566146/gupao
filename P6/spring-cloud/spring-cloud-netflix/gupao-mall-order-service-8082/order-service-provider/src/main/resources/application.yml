@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: order-service
+  cloud:
+    bus:
+      enabled: true
+  kafka:
+    consumer:
+      group-id: order-service
+    bootstrap-servers: 192.168.137.131:9092
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/gpmall?useUnicode=true&characterEncoding=utf8&useOldAliasMetadataBehavior=true&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&serverTimezone=UTC
+    username: root
+    password: 525.xiang
+
+  sleuth:
+    sampler:
+      probability: 1.0
+  zipkin:
+    base-url: http://192.168.137.131:9411/
+
+mybatis:
+  type-aliases-package: com.fan.gupao.demo.orderserviceprovider.mapper.entitys
+
+server:
+  port: 8082
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+
+logging:
+  level:
+    org.springframework.cloud.sleuth: debug

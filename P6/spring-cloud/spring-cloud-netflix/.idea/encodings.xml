@@ -2,13 +2,18 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupao-mall-commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupao-mall-commons/gupao-core-tools" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupao-mall-goods-service-9093" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupao-mall-goods-service-9093/goods-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupao-mall-goods-service-9093/goods-service-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupao-mall-order-service-8082" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupao-mall-order-service-8082/order-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gupao-mall-order-service-8082/order-service-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config-server-9091" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-eureka-server-9090" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-gateway-8083" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-hystrix-dashboard-9092" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-cloud-order-service-8082" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-cloud-order-service-8082/order-service-api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-cloud-order-service-8082/order-service-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-user-service-8081" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider" charset="UTF-8" />

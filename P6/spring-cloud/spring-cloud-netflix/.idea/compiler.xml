@@ -6,6 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="goods-service-api" />
+        <module name="goods-service-provider" />
+        <module name="gupao-core-tools" />
         <module name="order-service-api" />
         <module name="order-service-provider" />
         <module name="spring-cloud-config-server-9091" />

@@ -1,11 +1,11 @@
 
 E
 java:S1148J"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8×§«Ï¶.
-L
-java:S3740$"/Provide the parametrized type for this generic.(ŸûÄÎ8Ã¥œÏ¶.
 £
 java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Üœšèýÿÿÿÿ8áñ¼Î¶.
-@
-java:S1148)"#Use a logger to log this exception.(Óùóÿ8ßØ›Ï¶.
+L
+java:S3740$"/Provide the parametrized type for this generic.(ŸûÄÎ8Ã¥œÏ¶.
 E
 java:S11481"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ª¯žÏ¶.
+@
+java:S1148)"#Use a logger to log this exception.(Óùóÿ8ßØ›Ï¶.

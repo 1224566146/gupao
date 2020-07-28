@@ -24,9 +24,11 @@
   <modules>
     <module>spring-cloud-eureka-server-9090</module>
     <module>spring-cloud-config-server-9091</module>
-    <module>spring-cloud-order-service-8082</module>
+    <module>gupao-mall-order-service-8082</module>
     <module>spring-cloud-user-service-8081</module>
     <module>spring-cloud-hystrix-dashboard-9092</module>
+      <module>gupao-mall-commons</module>
+    <module>gupao-mall-goods-service-9093</module>
   </modules>
 
 
