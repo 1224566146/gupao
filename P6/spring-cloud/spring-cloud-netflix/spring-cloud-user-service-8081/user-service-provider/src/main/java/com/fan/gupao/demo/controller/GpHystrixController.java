@@ -1,6 +1,5 @@
 package com.fan.gupao.demo.controller;
 
-import com.fan.gupao.demo.userserviceprovider.hystrix.GpHystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,7 +16,7 @@ public class GpHystrixController {
     RestTemplate restTemplate;
 
 
-    @GpHystrixCommand(fallback = "fallback",timeout = 3000)
+//    @GpHystrixCommand(fallback = "fallback",timeout = 3000)
     @GetMapping("/hystrix/test")
     public String test(){
         return restTemplate.getForObject("http://localhost:8082/orders", String.class);

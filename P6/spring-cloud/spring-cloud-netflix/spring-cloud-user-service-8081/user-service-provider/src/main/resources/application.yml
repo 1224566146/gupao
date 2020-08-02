@@ -3,6 +3,12 @@ server:
 spring:
   application:
     name: user-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/gpmall?useUnicode=true&characterEncoding=utf8&useOldAliasMetadataBehavior=true&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&serverTimezone=UTC
+    username: root
+    password: 525.xiang
+
   kafka:
     bootstrap-servers: 192.168.137.131:9092
     consumer:
@@ -15,36 +21,7 @@ management:
     web:
       exposure:
         include: refresh,hystrix.stream
+mybatis:
+  type-aliases-package: com.fan.gupao.demo.userserviceprovider.mapper.entitys
 
-feign:
-  hystrix:
-    enabled: true
 
-hystrix:
-  command:
-    default: # 全局配置, feignclient#method(param)
-      execution:
-        timeout:
-          enable: true
-        isolation:
-          thread:
-            timeoutInMilliseconds: 3000
-    OrderServiceFeignClient#orders():
-      execution:
-        isolation:
-          strategy: SEMAPHORE
-          semaphore:
-            maxConcurrentRequests: 10
-    OrderServiceFeignClient#insert():
-      execution:
-        isolation:
-          strategy: THREAD
-  threadpool:
-    order-service:
-      coreSize: 2
-      maxQueueSize: 1000
-      queueSizeRejectionThreshold: 800
-
-ribbon:
-  ReadTimeout: 10000
-  ConnectTimeout: 10000

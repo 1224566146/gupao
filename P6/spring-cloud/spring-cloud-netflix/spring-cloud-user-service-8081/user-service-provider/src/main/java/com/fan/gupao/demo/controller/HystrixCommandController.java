@@ -1,6 +1,5 @@
 package com.fan.gupao.demo.controller;
 
-import com.fan.gupao.demo.userserviceprovider.service.HystrixCommandService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -21,8 +20,9 @@ public class HystrixCommandController {
 
     @GetMapping("/hystrix/command/{num}")
     public String hystrixCommand(@PathVariable("num")int num){
-        HystrixCommandService hystrixCommandService = new HystrixCommandService(num, restTemplate);
+//        HystrixCommandService hystrixCommandService = new HystrixCommandService(num, restTemplate);
         // 执行
-        return hystrixCommandService.execute();
+//        return hystrixCommandService.execute();
+        return null;
     }
 }

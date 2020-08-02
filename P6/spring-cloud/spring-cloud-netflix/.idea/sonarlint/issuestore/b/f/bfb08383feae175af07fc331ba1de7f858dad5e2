@@ -1,0 +1,23 @@
+
+e
+java:S1192±"IDefine a constant instead of duplicating this literal "updated" 10 times.( øçüÿÿÿÿ
+f
+java:S1192³"JDefine a constant instead of duplicating this literal "parentId" 10 times.(ÎËÄ¥şÿÿÿÿ
+b
+java:S1192ñ"KDefine a constant instead of duplicating this literal "sortOrder" 10 times.(–“’Ù
+a
+java:S1192­"JDefine a constant instead of duplicating this literal "isParent" 10 times.(¢´ù
+_
+java:S1192¯"HDefine a constant instead of duplicating this literal "remark" 12 times.(íêÑ
+`
+java:S1192õ"IDefine a constant instead of duplicating this literal "created" 10 times.(Èæ¹İ
+d
+java:S1192µ"HDefine a constant instead of duplicating this literal "status" 10 times.(Æ‹óÁùÿÿÿÿ
+`	java:S112Y"FDefine and throw a dedicated exception instead of using a generic one.(ÔÁñÍøÿÿÿÿ
+`	java:S112`"FDefine and throw a dedicated exception instead of using a generic one.(õÜ—ºşÿÿÿÿ
+Z	java:S112g"FDefine and throw a dedicated exception instead of using a generic one.(ìá¤
+
+S
+java:S11552">Use isEmpty() to check whether the collection is empty or not.(Á½¼s
+Y
+java:S1155L">Use isEmpty() to check whether the collection is empty or not.(í´Õûüÿÿÿÿ

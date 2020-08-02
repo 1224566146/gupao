@@ -1,0 +1,27 @@
+
+h
+java:S1192¼"LDefine a constant instead of duplicating this literal "createTime" 10 times.(·í“°øÿÿÿÿ
+h
+java:S1192ø"LDefine a constant instead of duplicating this literal "updateTime" 10 times.(¾£ü¨øÿÿÿÿ
+a
+java:S1192ş"JDefine a constant instead of duplicating this literal "totalFee" 10 times.(Òõïí
+c
+java:S1192Â"GDefine a constant instead of duplicating this literal "price" 10 times.(º ‘Öøÿÿÿÿ
+e
+java:S1192º"IDefine a constant instead of duplicating this literal "picPath" 12 times.(Ì†œ…üÿÿÿÿ
+d
+java:S1192€"HDefine a constant instead of duplicating this literal "status" 10 times.(Æ‹óÁùÿÿÿÿ
+^
+java:S1192ü"GDefine a constant instead of duplicating this literal "title" 12 times.(ï¶“
+`
+java:S1192ú"IDefine a constant instead of duplicating this literal "orderId" 12 times.(ÄæíÃ
+^
+java:S1192¾"HDefine a constant instead of duplicating this literal "itemId" 10 times.(§ç¨W
+`	java:S112Z"FDefine and throw a dedicated exception instead of using a generic one.(ÔÁñÍøÿÿÿÿ
+`	java:S112a"FDefine and throw a dedicated exception instead of using a generic one.(õÜ—ºşÿÿÿÿ
+Z	java:S112h"FDefine and throw a dedicated exception instead of using a generic one.(ìá¤
+
+S
+java:S11553">Use isEmpty() to check whether the collection is empty or not.(Á½¼s
+Y
+java:S1155M">Use isEmpty() to check whether the collection is empty or not.(í´Õûüÿÿÿÿ

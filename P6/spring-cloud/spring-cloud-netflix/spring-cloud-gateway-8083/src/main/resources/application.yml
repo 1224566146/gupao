@@ -30,18 +30,24 @@ spring:
           filters:
             - StripPrefix=1
           uri: lb://order-service
-        - id: ratelimiter_route
+        - id: user_route
           predicates:
-            - Path=/ratelimiter/**
+            - Path=/gper-user/**
           filters:
             - StripPrefix=1
-            - name: RequestRateLimiter
-              args:
-                deny-empty-key: true
-                keyResolver: '#{@ipAddressKeyResolver}'
-                redis-rate-limiter.replenishRate: 1
-                redis-rate-limiter.burstCapacity: 2
-          uri: lb://order-service
+          uri: lb://user-service
+#        - id: ratelimiter_route
+#          predicates:
+#            - Path=/ratelimiter/**
+#          filters:
+#            - StripPrefix=1
+#            - name: RequestRateLimiter
+#              args:
+#                deny-empty-key: true
+#                keyResolver: '#{@ipAddressKeyResolver}'
+#                redis-rate-limiter.replenishRate: 1
+#                redis-rate-limiter.burstCapacity: 2
+#          uri: lb://order-service
       discovery:
         locator:
           enabled: true
