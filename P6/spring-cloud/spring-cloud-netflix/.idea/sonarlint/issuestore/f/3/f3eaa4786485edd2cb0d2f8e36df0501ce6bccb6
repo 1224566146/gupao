@@ -1,0 +1,41 @@
+
+d
+java:S1192Ä"MDefine a constant instead of duplicating this literal "description" 12 times.(ˇﬁ∂ó
+c
+java:S1192»"LDefine a constant instead of duplicating this literal "isverified" 12 times.(¬√∞ê
+e
+java:S1192Æ"IDefine a constant instead of duplicating this literal "address" 12 times.(∞≥´œ¯ˇˇˇˇ
+e
+java:S1192å"IDefine a constant instead of duplicating this literal "balance" 10 times.(≠Ÿöî˙ˇˇˇˇ
+c
+java:S1192‰"GDefine a constant instead of duplicating this literal "phone" 12 times.(∫‘Òäˇˇˇˇˇ
+f
+java:S1192ÿ"JDefine a constant instead of duplicating this literal "username" 12 times.(◊úù⁄˛ˇˇˇˇ
+k
+java:S1192a"PDefine a constant instead of duplicating this literal " cannot be null" 4 times.(ı‹ó∫˛ˇˇˇˇ
+`
+java:S1192¨"IDefine a constant instead of duplicating this literal "updated" 10 times.(°§Öø
+^
+java:S1192Ù"GDefine a constant instead of duplicating this literal "state" 12 times.(ûì…’
+d
+java:S1192∆"HDefine a constant instead of duplicating this literal "points" 12 times.(úÁÜ¯˛ˇˇˇˇ
+a
+java:S1192û"JDefine a constant instead of duplicating this literal "password" 12 times.(≠‚õŒ
+c
+java:S1192™"GDefine a constant instead of duplicating this literal "email" 12 times.(·ŒÑµˇˇˇˇˇ
+_
+java:S1192"IDefine a constant instead of duplicating this literal "created" 10 times.(Õ´∫h
+`	java:S112Z"FDefine and throw a dedicated exception instead of using a generic one.(‘¡ÒÕ¯ˇˇˇˇ
+`	java:S112a"FDefine and throw a dedicated exception instead of using a generic one.(ı‹ó∫˛ˇˇˇˇ
+Z	java:S112h"FDefine and throw a dedicated exception instead of using a generic one.(Ï·§
+
+`	java:S112o"FDefine and throw a dedicated exception instead of using a generic one.(ı‹ó∫˛ˇˇˇˇ
+[	java:S112v"FDefine and throw a dedicated exception instead of using a generic one.(¡ùöπ
+[	java:S112Ç"FDefine and throw a dedicated exception instead of using a generic one.(Ï·§
+
+S
+java:S11553">Use isEmpty() to check whether the collection is empty or not.(¡Ωºs
+Y
+java:S1155M">Use isEmpty() to check whether the collection is empty or not.(Ì¥’˚¸ˇˇˇˇ
+T
+java:S1155u">Use isEmpty() to check whether the collection is empty or not.(Õ√ë∆
