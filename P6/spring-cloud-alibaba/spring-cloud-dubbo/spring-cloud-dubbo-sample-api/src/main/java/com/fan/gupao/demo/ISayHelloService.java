@@ -8,4 +8,7 @@ public interface ISayHelloService {
 
     String sayHello(String msg);
 
+
+    String exceptionTest();
+
 }

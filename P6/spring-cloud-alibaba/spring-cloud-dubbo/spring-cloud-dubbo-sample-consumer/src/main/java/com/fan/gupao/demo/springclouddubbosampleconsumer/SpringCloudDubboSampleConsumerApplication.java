@@ -1,13 +1,10 @@
 package com.fan.gupao.demo.springclouddubbosampleconsumer;
 
-import com.fan.gupao.demo.ISayHelloService;
-import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
-@RestController
+@EnableDiscoveryClient
 @SpringBootApplication
 public class SpringCloudDubboSampleConsumerApplication {
 
@@ -16,14 +13,6 @@ public class SpringCloudDubboSampleConsumerApplication {
     }
 
 
-    @Reference
-    private ISayHelloService sayHelloService;
 
-
-    @GetMapping("/test")
-    public String test(){
-        String hello = sayHelloService.sayHello("樊高风");
-        return hello;
-    }
 
 }
