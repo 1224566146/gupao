@@ -4,29 +4,44 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>gupaoedu-vip-mall</artifactId>
-        <groupId>com.gupaoedu</groupId>
+        <groupId>com.gupaoedu.mall</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <packaging>pom</packaging>
-    <modules>
-        <module>mall-goods-api</module>
-    </modules>
-    <artifactId>mall-api</artifactId>
 
-   <description>
-       所有数据库表对应的Bean和Feign接口
-   </description>
+    <artifactId>mall-api</artifactId>
+    <packaging>pom</packaging>
+    <name>mall-api</name>
+
+    <description>
+        微服务接口父控
+    </description>
+    <modules>
+        <module>goods-api</module>
+    </modules>
 
     <dependencies>
-        <!-- MyBatis Plus -->
+        <!--MyBatis Plus-->
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>3.3.2</version>
             <scope>provided</scope>
         </dependency>
-    </dependencies>
 
+        <!--工具包-->
+        <dependency>
+            <groupId>com.gupaoedu.mall</groupId>
+            <artifactId>mall-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <!--openfeign-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+            <version>2.2.5.RELEASE</version>
+        </dependency>
+    </dependencies>
 
 </project>

@@ -4,21 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>gupaoedu-vip-mall</artifactId>
-        <groupId>com.gupaoedu</groupId>
+        <groupId>com.gupaoedu.mall</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <artifactId>mall-gateway</artifactId>
 
+    <name>mall-gateway</name>
+
     <description>
-        管理所有微服务网关
+        云商城网关
     </description>
-
-
-
-
-
-
 
 </project>

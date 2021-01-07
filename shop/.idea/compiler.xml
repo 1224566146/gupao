@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="goods-api" />
+        <module name="mall-common" />
+        <module name="mall-goods-service" />
+        <module name="mall-service-dependency" />
+        <module name="mall-web" />
+        <module name="swagger-json" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="goods-api" target="1.8" />
+      <module name="gupaoedu-vip-mall" target="1.8" />
+      <module name="mall-api" target="1.8" />
+      <module name="mall-common" target="1.8" />
+      <module name="mall-gateway" target="1.8" />
+      <module name="mall-goods-service" target="1.8" />
+      <module name="mall-service" target="1.8" />
+      <module name="mall-service-dependency" target="1.8" />
+      <module name="mall-util" target="1.8" />
+      <module name="mall-web" target="1.8" />
+      <module name="swagger-json" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
